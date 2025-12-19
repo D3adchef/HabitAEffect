@@ -6,60 +6,77 @@ export default function MeetDrJen() {
 
       {/* Page Title */}
       <h1 className="text-4xl font-bold text-blue-900 mb-6">
-        Meet Dr. Jenn
+        Meet Dr. Jen
       </h1>
 
       {/* Centered Photo */}
       <img
         src={drjenn}
-        alt="Dr. Jenn Christopher"
+        alt="Dr. Jen"
         className="w-64 h-auto rounded-xl shadow-lg mb-8 border-4 border-[#F28C28]"
       />
 
-      {/* BIO SECTION */}
+      {/* BIO SECTION — UPDATED WITH YOUR CONTENT */}
       <div className="max-w-3xl text-blue-900 text-lg leading-relaxed space-y-6">
 
         <p>
-          Dr. Jenn Christopher is a passionate educator, leader, and behavior expert who loves 
-          helping people understand themselves and build habits that truly fit their lives.
+          In my professional journey, I have honed the skills of a builder and a fixer,
+          working to bring ideas to life and overcome challenges along the way. I possess
+          a unique ability to transform concepts into tangible results, breathing life
+          into the visions of others.
         </p>
 
         <p>
-          With more than a decade of experience in psychology, program design, and coaching, 
-          Dr. Jenn blends science, compassion, and creativity to make change feel possible — 
-          not overwhelming. Her approach is warm, practical, and centered on empowering people 
-          to grow in ways that honor their strengths and real-world challenges.
+          What sets me apart is my unconventional mindset. As a logical yet non-linear
+          thinker, I approach problem-solving from fresh and innovative angles. This
+          perspective allows me to uncover creative solutions and offer unique insights
+          into complex issues. By thinking outside the box, I bring a valuable perspective
+          to the table, enabling me to tackle problems from new and exciting angles.
         </p>
 
         <p>
-          She believes deeply in the power of thoughtful communication, supportive environments, 
-          and small steps that build meaningful momentum. At Habit AEffect, she brings her 
-          builder-and-fixer mindset to help clients create routines that feel natural, 
-          sustainable, and uniquely their own.
+          For me, true success lies in the accomplishments of those I collaborate with.
+          I am deeply invested in the growth and development of both programs and the
+          individuals involved. By fostering an environment of support and empowerment,
+          I help build both the foundations and the people, driving collective achievements
+          and individual triumphs.
         </p>
 
-        {/* LinkedIn Link */}
         <p>
-          🌐 Connect with Jenn on LinkedIn:{" "}
-          <a
-            href="https://www.linkedin.com/in/jennie-christopher-877451101/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#F28C28] font-semibold hover:underline"
-          >
-            Dr. Jenn Christopher
-          </a>
+          Accountability and clarity are fundamental principles that guide my work. I
+          strongly believe in the importance of transparent and effective communication.
+          I value open dialogue and recognize that meaningful collaboration requires
+          active listening, clear articulation, and mutual understanding. By promoting a
+          culture of open communication, I foster trust, encourage collaboration, and
+          ensure that goals and expectations are clear for everyone involved.
+        </p>
+
+        <p>
+          While I am adaptable to various organizational settings, I have discovered a
+          particular affinity for small organizations and start-ups. The dynamic and
+          passionate energy that permeates these environments fuels my own enthusiasm.
+          I thrive in the presence of dedicated and motivated teams, where the collective
+          spirit ignites innovation and propels progress.
+        </p>
+
+        <p>
+          In summary, as a builder and a fixer, I possess the ability to transform ideas
+          into reality and tackle challenges head-on. With my unconventional thinking,
+          commitment to growth, and emphasis on effective communication, I am poised to
+          make a lasting impact. Whether within a small organization or a start-up, I
+          find immense fulfillment in working with passionate teams and contributing to
+          their success.
         </p>
       </div>
 
-      {/* CALL TO ACTION SECTION */}
+      {/* CALL TO ACTION SECTION (UNCHANGED) */}
       <div className="max-w-3xl mt-12 bg-white p-8 rounded-xl shadow-md border-l-4 border-[#F28C28] text-blue-900 space-y-4">
-
         <h2 className="text-2xl font-bold">Ready to Begin Your Habit Journey?</h2>
 
         <p>
-          Whether you’re building new habits or trying to break old ones, Jenn is here to help you 
-          find clarity, confidence, and a plan that fits who you are — not who you’re "supposed" to be.
+          Whether you’re building new habits or trying to break old ones, Dr. Jen is here
+          to help you find clarity, confidence, and a plan that fits who you are — not
+          who you’re “supposed” to be.
         </p>
 
         <ul className="list-disc ml-6 space-y-2">
@@ -78,7 +95,7 @@ export default function MeetDrJen() {
             href="mailto:Dr.Jen@habitaeffect.com"
             className="bg-[#F28C28] text-white font-semibold px-6 py-3 rounded-lg shadow hover:bg-[#d9791f] transition-colors"
           >
-            Contact Dr. Jenn
+            Contact Dr. Jen
           </a>
         </div>
       </div>
