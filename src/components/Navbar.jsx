@@ -17,11 +17,11 @@ export default function Navbar() {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-10 text-blue-900 font-semibold text-lg">
-          <a href="/" className="nav-link">Home</a>
-          <a href="/services" className="nav-link">Services</a>
-          <a href="/about" className="nav-link">About</a>
-          <a href="/schedule" className="nav-link">Schedule</a>
-          <a href="/contact" className="nav-link">Contact</a>
+          <a href="/" className="nav-link hover:text-white transition-colors">Home</a>
+          <a href="/services" className="nav-link hover:text-white transition-colors">Services</a>
+          <a href="/about" className="nav-link hover:text-white transition-colors">About</a>
+          <a href="/schedule" className="nav-link hover:text-white transition-colors">Schedule</a>
+          <a href="/contact" className="nav-link hover:text-white transition-colors">Contact</a>
         </div>
 
         {/* Mobile Hamburger */}
@@ -36,11 +36,41 @@ export default function Navbar() {
       {/* Mobile Dropdown Menu */}
       {menuOpen && (
         <div className="md:hidden bg-[#F28C28] text-blue-900 font-semibold text-lg flex flex-col items-end pr-8 py-4 gap-4 shadow-md">
-          <a href="/" className="nav-link" onClick={() => setMenuOpen(false)}>Home</a>
-          <a href="/services" className="nav-link" onClick={() => setMenuOpen(false)}>Services</a>
-          <a href="/about" className="nav-link" onClick={() => setMenuOpen(false)}>About</a>
-          <a href="/schedule" className="nav-link" onClick={() => setMenuOpen(false)}>Schedule</a>
-          <a href="/contact" className="nav-link" onClick={() => setMenuOpen(false)}>Contact</a>
+          <a
+            href="/"
+            className="nav-link hover:text-white transition-colors"
+            onClick={() => setMenuOpen(false)}
+          >
+            Home
+          </a>
+          <a
+            href="/services"
+            className="nav-link hover:text-white transition-colors"
+            onClick={() => setMenuOpen(false)}
+          >
+            Services
+          </a>
+          <a
+            href="/about"
+            className="nav-link hover:text-white transition-colors"
+            onClick={() => setMenuOpen(false)}
+          >
+            About
+          </a>
+          <a
+            href="/schedule"
+            className="nav-link hover:text-white transition-colors"
+            onClick={() => setMenuOpen(false)}
+          >
+            Schedule
+          </a>
+          <a
+            href="/contact"
+            className="nav-link hover:text-white transition-colors"
+            onClick={() => setMenuOpen(false)}
+          >
+            Contact
+          </a>
         </div>
       )}
     </nav>
