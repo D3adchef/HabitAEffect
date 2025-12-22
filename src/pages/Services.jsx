@@ -7,11 +7,11 @@ export default function Services() {
         Our Services
       </h1>
 
-      <div className="max-w-5xl mx-auto text-blue-900">
+      <div className="max-w-5xl mx-auto text-gray-900 font-medium">
 
         {/* Intro */}
         <p className="text-lg leading-relaxed mb-10 text-center">
-          Habit AEffect offers structured, supportive, and research-backed services
+          Habit Æffect offers structured, supportive, and research-backed services
           designed to help individuals understand their behavioral patterns and
           create lasting, sustainable change. Below is an overview of core services
           available to clients.

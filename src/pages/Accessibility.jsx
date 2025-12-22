@@ -7,10 +7,10 @@ export default function Accessibility() {
         Accessibility Statement
       </h1>
 
-      <div className="max-w-5xl mx-auto text-blue-900 text-lg leading-relaxed space-y-6">
+      <div className="max-w-5xl mx-auto text-gray-900 font-medium text-lg leading-relaxed space-y-6">
 
         <p>
-          Habit AEffect is committed to creating a digital experience that is
+          Habit Æffect is committed to creating a digital experience that is
           accessible, inclusive, and user-friendly for all individuals. This
           placeholder Accessibility Statement will be expanded as the website and
           program evolve.
@@ -26,7 +26,7 @@ export default function Accessibility() {
 
         <h2 className="text-2xl font-bold mt-8">Ongoing Improvements</h2>
         <p>
-          Accessibility is an ongoing effort. As Habit AEffect grows, we will
+          Accessibility is an ongoing effort. As Habit Æffect grows, we will
           continue improving features such as keyboard navigation, alternative text
           for images, structured headings, descriptive links, and compatibility with
           assistive technologies.
@@ -35,20 +35,20 @@ export default function Accessibility() {
         <h2 className="text-2xl font-bold mt-8">Feedback & Support</h2>
         <p>
           If you encounter any accessibility barriers while using this website or
-          participating in the Habit AEffect program, we encourage you to reach out.
+          participating in the Habit Æffect program, we encourage you to reach out.
           Your feedback helps us identify areas for improvement and better support
           the needs of all users.
         </p>
 
         <p>
-          Email: <span className="font-semibold">[Placeholder Email]</span>  
+          Email: <span className="font-semibold">[Placeholder Email]</span>
           <br />
           More detailed accessibility contact information will be provided in the
           finalized version of the platform.
         </p>
 
         <p className="mt-8">
-          This page will be updated regularly as we refine the Habit AEffect user
+          This page will be updated regularly as we refine the Habit Æffect user
           experience and expand access features.
         </p>
 

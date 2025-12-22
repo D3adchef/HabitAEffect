@@ -7,11 +7,11 @@ export default function Contact() {
         Contact Us
       </h1>
 
-      <div className="max-w-3xl mx-auto text-blue-900">
+      <div className="max-w-3xl mx-auto text-gray-900 font-medium">
 
         {/* Intro */}
         <p className="text-lg leading-relaxed text-center mb-10">
-          Have questions about the Habit AEffect program? Want to learn more about
+          Have questions about the Habit Æffect program? Want to learn more about
           coaching or upcoming offerings? Fill out the form below and we’ll be in touch.
         </p>
 

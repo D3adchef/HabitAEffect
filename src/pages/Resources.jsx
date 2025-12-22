@@ -7,12 +7,12 @@ export default function Resources() {
         Resources
       </h1>
 
-      <div className="max-w-5xl mx-auto text-blue-900">
+      <div className="max-w-5xl mx-auto text-gray-900 font-medium">
 
         {/* Intro */}
         <p className="text-lg leading-relaxed text-center mb-10">
           Explore worksheets, guides, tools, and educational materials designed to
-          support your journey with Habit AEffect. Additional resources will be
+          support your journey with Habit Æffect. Additional resources will be
           added regularly as the program continues to grow.
         </p>
 

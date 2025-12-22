@@ -4,14 +4,14 @@ export default function Store() {
 
       {/* Page Title */}
       <h1 className="text-4xl md:text-5xl font-bold text-blue-900 text-center mb-12">
-        Habit AEffect Store
+        Habit Æffect Store
       </h1>
 
-      <div className="max-w-4xl mx-auto text-blue-900">
+      <div className="max-w-4xl mx-auto text-gray-900 font-medium">
 
         {/* Intro */}
         <p className="text-lg leading-relaxed text-center mb-10">
-          The Habit AEffect Store will soon provide access to downloadable tools,
+          The Habit Æffect Store will soon provide access to downloadable tools,
           worksheets, habit trackers, and guided resources. Clients will also be
           able to purchase program materials directly through embedded Google Forms.
         </p>

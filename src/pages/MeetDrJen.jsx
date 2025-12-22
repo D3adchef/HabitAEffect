@@ -16,8 +16,8 @@ export default function MeetDrJen() {
         className="w-64 h-auto rounded-xl shadow-lg mb-8 border-4 border-[#F28C28]"
       />
 
-      {/* BIO SECTION — UPDATED WITH YOUR CONTENT */}
-      <div className="max-w-3xl text-blue-900 text-lg leading-relaxed space-y-6">
+      {/* BIO SECTION */}
+      <div className="max-w-3xl text-gray-900 font-medium text-lg leading-relaxed space-y-6">
 
         <p>
           In my professional journey, I have honed the skills of a builder and a fixer,
@@ -69,8 +69,8 @@ export default function MeetDrJen() {
         </p>
       </div>
 
-      {/* CALL TO ACTION SECTION (UNCHANGED) */}
-      <div className="max-w-3xl mt-12 bg-white p-8 rounded-xl shadow-md border-l-4 border-[#F28C28] text-blue-900 space-y-4">
+      {/* CALL TO ACTION SECTION */}
+      <div className="max-w-3xl mt-12 bg-white p-8 rounded-xl shadow-md border-l-4 border-[#F28C28] text-gray-900 font-medium space-y-4">
         <h2 className="text-2xl font-bold">Ready to Begin Your Habit Journey?</h2>
 
         <p>

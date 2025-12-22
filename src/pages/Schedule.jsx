@@ -7,11 +7,11 @@ export default function Schedule() {
         Schedule a Session
       </h1>
 
-      <div className="max-w-4xl mx-auto text-blue-900">
+      <div className="max-w-4xl mx-auto text-gray-900 font-medium">
 
         {/* Intro */}
         <p className="text-lg leading-relaxed text-center mb-10">
-          Habit AEffect uses a streamlined scheduling system to make booking your
+          Habit Æffect uses a streamlined scheduling system to make booking your
           sessions simple and accessible. Below, you will soon find the integrated
           Calendly calendar and secure Stripe payment options.
         </p>
