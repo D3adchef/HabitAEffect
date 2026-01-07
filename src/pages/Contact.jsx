@@ -3,7 +3,7 @@ export default function Contact() {
     <div className="w-full min-h-screen bg-background pt-32 pb-20 px-6 md:px-12 lg:px-24">
 
       {/* Page Title */}
-      <h1 className="text-4xl md:text-5xl font-bold text-blue-900 text-center mb-12">
+      <h1 className="text-4xl md:text-5xl font-bold text-orange text-center mb-12">
         Contact Us
       </h1>
 
@@ -15,26 +15,39 @@ export default function Contact() {
           coaching or upcoming offerings? Fill out the form below and we’ll be in touch.
         </p>
 
-        {/* Contact Form Placeholder */}
+        {/* Contact Form */}
         <div className="bg-white rounded-lg shadow-md p-8 border-l-4 border-orange">
 
-          <form className="grid grid-cols-1 gap-6">
+          <form
+            action="mailto:info@habitaeffect.com"
+            method="POST"
+            encType="text/plain"
+            className="grid grid-cols-1 gap-6"
+          >
 
-            {/* Name */}
+            {/* Full Name */}
             <div>
-              <label className="block text-lg font-semibold mb-2">Full Name</label>
+              <label className="block text-lg font-semibold mb-2 text-blue">
+                Full Name
+              </label>
               <input
                 type="text"
+                name="Name"
+                required
                 className="w-full p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange"
                 placeholder="Your name"
               />
             </div>
 
-            {/* Email */}
+            {/* Email Address */}
             <div>
-              <label className="block text-lg font-semibold mb-2">Email Address</label>
+              <label className="block text-lg font-semibold mb-2 text-blue">
+                Email Address
+              </label>
               <input
                 type="email"
+                name="Email"
+                required
                 className="w-full p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange"
                 placeholder="your@email.com"
               />
@@ -42,9 +55,13 @@ export default function Contact() {
 
             {/* Message */}
             <div>
-              <label className="block text-lg font-semibold mb-2">Message</label>
+              <label className="block text-lg font-semibold mb-2 text-blue">
+                Message
+              </label>
               <textarea
+                name="Message"
                 rows="5"
+                required
                 className="w-full p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange"
                 placeholder="How can we help you?"
               ></textarea>
@@ -52,7 +69,7 @@ export default function Contact() {
 
             {/* Submit */}
             <button
-              type="button"
+              type="submit"
               className="bg-orange text-white text-lg font-semibold py-3 rounded-md hover:bg-[#d97706] transition"
             >
               Send Message

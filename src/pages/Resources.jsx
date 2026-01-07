@@ -3,7 +3,7 @@ export default function Resources() {
     <div className="w-full min-h-screen bg-background pt-32 pb-20 px-6 md:px-12 lg:px-24">
 
       {/* Page Title */}
-      <h1 className="text-4xl md:text-5xl font-bold text-blue-900 text-center mb-12">
+      <h1 className="text-4xl md:text-5xl font-bold text-orange text-center mb-12">
         Resources
       </h1>
 
@@ -17,11 +17,13 @@ export default function Resources() {
         </p>
 
         {/* Resource Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
 
           {/* Resource 1 */}
           <div className="bg-white border-l-4 border-orange rounded-lg shadow-md p-6">
-            <h2 className="text-2xl font-bold text-blue-900 mb-3">Habit Tracker</h2>
+            <h2 className="text-2xl font-bold text-blue mb-3">
+              Habit Tracker
+            </h2>
             <p className="text-lg leading-relaxed mb-4">
               A structured tracking sheet to help you monitor your progress and
               stay accountable as you implement new habits.
@@ -33,7 +35,9 @@ export default function Resources() {
 
           {/* Resource 2 */}
           <div className="bg-white border-l-4 border-orange rounded-lg shadow-md p-6">
-            <h2 className="text-2xl font-bold text-blue-900 mb-3">Behavior Mapping Guide</h2>
+            <h2 className="text-2xl font-bold text-blue mb-3">
+              Behavioral Mapping Guide
+            </h2>
             <p className="text-lg leading-relaxed mb-4">
               A step-by-step guide to identifying triggers, patterns, behaviors,
               and outcomes using the D6 Method.
@@ -45,7 +49,9 @@ export default function Resources() {
 
           {/* Resource 3 */}
           <div className="bg-white border-l-4 border-orange rounded-lg shadow-md p-6">
-            <h2 className="text-2xl font-bold text-blue-900 mb-3">Goal Setting Template</h2>
+            <h2 className="text-2xl font-bold text-blue mb-3">
+              Goal Setting Template
+            </h2>
             <p className="text-lg leading-relaxed mb-4">
               A simple goal-setting system to help you plan, prioritize, and track
               your intentions week by week.
@@ -57,7 +63,9 @@ export default function Resources() {
 
           {/* Resource 4 */}
           <div className="bg-white border-l-4 border-orange rounded-lg shadow-md p-6">
-            <h2 className="text-2xl font-bold text-blue-900 mb-3">Wellness Worksheets</h2>
+            <h2 className="text-2xl font-bold text-blue mb-3">
+              Wellness Worksheets
+            </h2>
             <p className="text-lg leading-relaxed mb-4">
               A growing collection of worksheets focused on mindfulness, motivation,
               routine building, and personal reflection.
@@ -68,6 +76,32 @@ export default function Resources() {
           </div>
 
         </div>
+
+        {/* Bottom CTA */}
+        <div className="max-w-4xl mx-auto bg-white p-10 rounded-xl shadow-md border-l-4 border-orange text-gray font-medium space-y-6">
+          <h2 className="text-2xl md:text-3xl font-bold text-blue">
+            Looking for the Right Place to Start?
+          </h2>
+
+          <p>
+            If you’re not sure which resource will be most helpful, or you’d like
+            guidance on how to use these tools effectively, we’re happy to help.
+          </p>
+
+          <p className="pt-2">
+            Reach out anytime to talk through what support might fit your goals best.
+          </p>
+
+          <div className="pt-4">
+            <a
+              href="/contact"
+              className="inline-block bg-orange text-white font-semibold px-6 py-3 rounded-lg shadow hover:bg-[#e07f1f] transition-colors"
+            >
+              Contact Form
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
   );

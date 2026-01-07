@@ -3,7 +3,7 @@ export default function Terms() {
     <div className="w-full min-h-screen bg-background pt-32 pb-20 px-6 md:px-12 lg:px-24">
 
       {/* Page Title */}
-      <h1 className="text-4xl md:text-5xl font-bold text-blue-900 text-center mb-12">
+      <h1 className="text-4xl md:text-5xl font-bold text-orange text-center mb-12">
         Terms & Conditions
       </h1>
 
@@ -16,7 +16,9 @@ export default function Terms() {
           updated with full legal language prior to launch.
         </p>
 
-        <h2 className="text-2xl font-bold mt-8">Use of Services</h2>
+        <h2 className="text-2xl font-bold text-blue mt-8">
+          Use of Services
+        </h2>
         <p>
           Habit Æffect provides educational and coaching services intended for
           personal development. Clients are responsible for ensuring that the
@@ -24,14 +26,18 @@ export default function Terms() {
           psychological, or clinical treatment.
         </p>
 
-        <h2 className="text-2xl font-bold mt-8">Intellectual Property</h2>
+        <h2 className="text-2xl font-bold text-blue mt-8">
+          Intellectual Property
+        </h2>
         <p>
           All materials, including worksheets, digital products, and program
           content, are the intellectual property of Habit Æffect and may not be
           reproduced or distributed without permission.
         </p>
 
-        <h2 className="text-2xl font-bold mt-8">Payments & Scheduling</h2>
+        <h2 className="text-2xl font-bold text-blue mt-8">
+          Payments & Scheduling
+        </h2>
         <p>
           Any payments collected through integrated platforms such as Stripe are
           subject to their respective terms of service. Scheduled sessions must be
@@ -39,7 +45,9 @@ export default function Terms() {
           clients.
         </p>
 
-        <h2 className="text-2xl font-bold mt-8">Limitations of Liability</h2>
+        <h2 className="text-2xl font-bold text-blue mt-8">
+          Limitations of Liability
+        </h2>
         <p>
           Habit Æffect is not responsible for decisions made by clients based on
           coaching discussions or digital resources. Individuals are encouraged to
