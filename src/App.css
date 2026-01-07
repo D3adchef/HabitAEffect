@@ -1,3 +1,13 @@
+/* Global typography baseline */
+html {
+  font-size: 20px; /* bumped up from typical 16px */
+}
+
+body {
+  color: #000;      /* global font now black */
+  line-height: 1.6; /* keeps bigger text readable */
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
