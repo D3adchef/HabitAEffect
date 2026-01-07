@@ -95,7 +95,7 @@ export default function Home() {
             href="/contact"
             className="inline-block bg-orange text-white font-semibold px-6 py-3 rounded-lg shadow hover:bg-[#e07f1f] transition-colors"
           >
-            Contact Dr. Jen
+            Contact Form
           </a>
         </div>
       </div>
