@@ -5,7 +5,7 @@ export default function MeetDrJen() {
     <div className="min-h-screen bg-[#E8F6F7] flex flex-col items-center px-6 py-12">
 
       {/* Page Title */}
-      <h1 className="text-4xl font-bold text-blue-900 mb-6">
+      <h1 className="text-4xl font-bold text-orange mb-6">
         Meet Dr. Jen
       </h1>
 
@@ -70,22 +70,25 @@ export default function MeetDrJen() {
       </div>
 
       {/* CALL TO ACTION SECTION */}
-      <div className="max-w-3xl mt-12 bg-white p-8 rounded-xl shadow-md border-l-4 border-[#F28C28] text-gray-900 font-medium space-y-4">
-        <h2 className="text-2xl font-bold">Ready to Begin Your Habit Journey?</h2>
+      <div className="max-w-3xl mt-12 bg-white p-8 rounded-xl shadow-md border-l-4 border-[#F28C28] font-medium space-y-4">
 
-        <p>
+        <h2 className="text-2xl font-bold text-blue">
+          Ready to Begin Your Habit Journey?
+        </h2>
+
+        <p className="text-gray">
           Whether you’re building new habits or trying to break old ones, Dr. Jen is here
           to help you find clarity, confidence, and a plan that fits who you are — not
           who you’re “supposed” to be.
         </p>
 
-        <ul className="list-disc ml-6 space-y-2">
+        <ul className="list-disc ml-6 space-y-2 text-gray">
           <li>Learn a simple, science-backed approach to behavior change</li>
           <li>Discover habits that match your real life and your real needs</li>
           <li>Build systems that support growth without judgment or pressure</li>
         </ul>
 
-        <p className="font-semibold">
+        <p className="font-semibold text-gray">
           Have questions or want to get started? Reach out anytime.
         </p>
 

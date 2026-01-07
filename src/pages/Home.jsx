@@ -4,7 +4,7 @@ export default function Home() {
 
       {/* Intro Section */}
       <div className="max-w-4xl mx-auto text-gray-900 font-medium space-y-6">
-        <h1 className="text-4xl md:text-5xl font-bold text-[#F28C28] text-center mb-8">
+        <h1 className="text-4xl md:text-5xl font-bold text-orange text-center mb-8">
           Welcome to Habit Æffect
         </h1>
 
@@ -16,8 +16,7 @@ export default function Home() {
 
         <p>
           At Habit Æffect, we believe habit change isn’t a personality trait or a moral
-          failing. It’s a skill - and skills can be learned, practiced,
-          and supported.
+          failing. It’s a skill - and skills can be learned, practiced, and supported.
         </p>
 
         <p>
@@ -29,7 +28,7 @@ export default function Home() {
 
       {/* Neuro-Spicy Æffect Section */}
       <div className="max-w-4xl mx-auto mt-12 border-t pt-6 text-gray-900 font-medium space-y-4">
-        <h2 className="text-xl font-bold text-[#F28C28] underline">
+        <h2 className="text-xl font-bold text-orange underline">
           The Neuro-Spicy Æffect
         </h2>
 
@@ -54,7 +53,7 @@ export default function Home() {
 
       {/* Transition Æffect Section */}
       <div className="max-w-4xl mx-auto mt-12 border-t pt-6 text-gray-900 font-medium space-y-4">
-        <h2 className="text-xl font-bold text-[#F28C28] underline">
+        <h2 className="text-xl font-bold text-orange underline">
           The Transition Æffect
         </h2>
 
@@ -76,8 +75,8 @@ export default function Home() {
       </div>
 
       {/* Closing CTA */}
-      <div className="max-w-4xl mx-auto mt-16 bg-white p-8 rounded-xl shadow-md border-l-4 border-orange text-gray font-medium">
-        <h2 className="text-2xl font-bold text-blue-900 mb-4">
+      <div className="max-w-4xl mx-auto mt-16 bg-white p-10 rounded-xl shadow-md border-l-4 border-orange text-gray font-medium space-y-6">
+        <h2 className="text-2xl md:text-3xl font-bold text-blue">
           A Different Way to Build Habits
         </h2>
 
@@ -86,6 +85,19 @@ export default function Home() {
           you’re navigating neurodivergence, life transitions, or simply looking for a
           better approach, you don’t have to do it alone.
         </p>
+
+        <p className="pt-2">
+          Not sure where to start? Let’s figure it out together.
+        </p>
+
+        <div className="pt-4">
+          <a
+            href="/contact"
+            className="inline-block bg-orange text-white font-semibold px-6 py-3 rounded-lg shadow hover:bg-[#e07f1f] transition-colors"
+          >
+            Contact Dr. Jen
+          </a>
+        </div>
       </div>
     </div>
   );
