@@ -28,7 +28,7 @@ export default function Home() {
 
       {/* Neuro-Spicy Æffect Section */}
       <div className="max-w-4xl mx-auto mt-12 border-t border-blue-900 pt-6 text-gray-900 font-medium space-y-4">
-        <h2 className="text-2xl font-bold text-orange underline">
+        <h2 className="text-2xl font-bold text-orange underline text-center">
           The Neuro-Spicy Æffect
         </h2>
 
@@ -51,7 +51,7 @@ export default function Home() {
         </p>
       </div>
 
-      {/* Transition Æffect Section */}
+      {/* Transition Æffect Section (unchanged) */}
       <div className="max-w-4xl mx-auto mt-12 border-t border-blue-900 pt-6 text-gray-900 font-medium space-y-4">
         <h2 className="text-2xl font-bold text-orange underline">
           The Transition Æffect
