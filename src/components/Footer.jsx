@@ -21,37 +21,51 @@ export default function Footer() {
 
         {/* Center social icons */}
         <div className="flex justify-center gap-8">
-          <a href="#" aria-label="Facebook">
-            <img
-              src={facebook}
-              alt="Facebook"
-              className="h-28 w-32 hover:scale-110 transition-transform"
-            />
+
+          {/* Facebook */}
+          <a href="#" aria-label="Facebook" className="flex items-center justify-center">
+            <div className="h-32 w-32 flex items-center justify-center">
+              <img
+                src={facebook}
+                alt="Facebook"
+                className="max-h-full max-w-full object-contain hover:scale-110 transition-transform"
+              />
+            </div>
           </a>
 
-          <a href="#" aria-label="Indeed">
-            <img
-              src={indeed}
-              alt="Indeed"
-              className="h-28 w-32 hover:scale-110 transition-transform"
-            />
+          {/* Indeed */}
+          <a href="#" aria-label="Indeed" className="flex items-center justify-center">
+            <div className="h-32 w-32 flex items-center justify-center">
+              <img
+                src={indeed}
+                alt="Indeed"
+                className="max-h-full max-w-full object-contain hover:scale-110 transition-transform"
+              />
+            </div>
           </a>
 
-          <a href="#" aria-label="Instagram">
-            <img
-              src={instagram}
-              alt="Instagram"
-              className="h-28 w-32 hover:scale-110 transition-transform"
-            />
+          {/* Instagram */}
+          <a href="#" aria-label="Instagram" className="flex items-center justify-center">
+            <div className="h-32 w-32 flex items-center justify-center">
+              <img
+                src={instagram}
+                alt="Instagram"
+                className="max-h-full max-w-full object-contain hover:scale-110 transition-transform"
+              />
+            </div>
           </a>
 
-          <a href="#" aria-label="YouTube">
-            <img
-              src={youtube}
-              alt="YouTube"
-              className="h-28 w-32 hover:scale-110 transition-transform"
-            />
+          {/* YouTube */}
+          <a href="#" aria-label="YouTube" className="flex items-center justify-center">
+            <div className="h-32 w-32 flex items-center justify-center">
+              <img
+                src={youtube}
+                alt="YouTube"
+                className="max-h-full max-w-full object-contain hover:scale-110 transition-transform"
+              />
+            </div>
           </a>
+
         </div>
 
         {/* Right side legal links */}
