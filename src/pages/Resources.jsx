@@ -1,6 +1,16 @@
+import { Helmet } from "react-helmet-async";
+
 export default function Resources() {
   return (
     <div className="w-full min-h-screen bg-background pt-32 pb-20 px-6 md:px-12 lg:px-24">
+
+      <Helmet>
+        <title>Resources | Habit Æffect</title>
+        <meta
+          name="description"
+          content="Browse Habit Æffect resources including habit trackers, behavioral mapping guides, goal-setting templates, and wellness worksheets."
+        />
+      </Helmet>
 
       {/* Page Title */}
       <h1 className="text-4xl md:text-5xl font-bold text-orange text-center mb-12">

@@ -1,6 +1,16 @@
+import { Helmet } from "react-helmet-async";
+
 export default function Terms() {
   return (
     <div className="w-full min-h-screen bg-background pt-32 pb-20 px-6 md:px-12 lg:px-24">
+
+      <Helmet>
+        <title>Terms & Conditions | Habit Æffect</title>
+        <meta
+          name="description"
+          content="Review the Terms & Conditions governing the use of Habit Æffect’s website, coaching services, and digital resources."
+        />
+      </Helmet>
 
       {/* Page Title */}
       <h1 className="text-4xl md:text-5xl font-bold text-orange text-center mb-12">

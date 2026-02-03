@@ -1,6 +1,16 @@
+import { Helmet } from "react-helmet-async";
+
 export default function Schedule() {
   return (
     <div className="w-full min-h-screen bg-background pt-32 pb-20 px-6 md:px-12 lg:px-24">
+
+      <Helmet>
+        <title>Schedule | Habit Æffect</title>
+        <meta
+          name="description"
+          content="Schedule a Habit Æffect coaching session using our upcoming integrated calendar and secure payment system."
+        />
+      </Helmet>
 
       {/* Page Title */}
       <h1 className="text-4xl md:text-5xl font-bold text-blue-900 text-center mb-12">

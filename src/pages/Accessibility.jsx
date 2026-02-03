@@ -1,6 +1,16 @@
+import { Helmet } from "react-helmet-async";
+
 export default function Accessibility() {
   return (
     <div className="w-full min-h-screen bg-background pt-32 pb-20 px-6 md:px-12 lg:px-24">
+
+      <Helmet>
+        <title>Accessibility | Habit Æffect</title>
+        <meta
+          name="description"
+          content="Read Habit Æffect’s accessibility statement outlining our commitment to inclusive, usable, and neurodivergent-friendly digital experiences."
+        />
+      </Helmet>
 
       {/* Page Title */}
       <h1 className="text-4xl md:text-5xl font-bold text-orange text-center mb-12">
