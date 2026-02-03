@@ -28,7 +28,7 @@ export default function Navbar() {
             D-6 Method in Action
           </a>
           <a href="/meet-dr-jen" className="hover:text-white transition-colors">
-            Meet Dr. Jenn
+            Meet Dr. Jen
           </a>
           <a href="/store" className="hover:text-white transition-colors">Store</a>
           <a href="/resources" className="hover:text-white transition-colors">Resources</a>
@@ -61,7 +61,7 @@ export default function Navbar() {
             onClick={() => setMenuOpen(false)}
             className="hover:text-white"
           >
-            Meet Dr. Jenn
+            Meet Dr. Jen
           </a>
           <a href="/store" onClick={() => setMenuOpen(false)} className="hover:text-white">Store</a>
           <a href="/resources" onClick={() => setMenuOpen(false)} className="hover:text-white">Resources</a>

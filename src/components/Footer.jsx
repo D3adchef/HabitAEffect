@@ -17,7 +17,7 @@ export default function Footer() {
             D-6 Method in Action
           </a>
           <a className="hover:text-white transition-colors" href="/meet-dr-jen">
-            Meet Dr. Jenn
+            Meet Dr. Jen
           </a>
           <a className="hover:text-white transition-colors" href="/store">
             Store
