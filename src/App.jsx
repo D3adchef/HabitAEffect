@@ -11,6 +11,14 @@ import Store from "./pages/Store";
 import Resources from "./pages/Resources";
 import Contact from "./pages/Contact";
 
+// ✅ add these imports (make sure filenames match exactly)
+import Terms from "./pages/Terms";
+import Privacy from "./pages/Privacy";
+import Accessibility from "./pages/Accessibility";
+
+// (optional) simple NotFound page if you want it
+// import NotFound from "./pages/NotFound";
+
 export default function App() {
   return (
     <>
@@ -20,13 +28,21 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
 
-        {/* NEW D-6 page */}
+        {/* D6 page */}
         <Route path="/d6-method" element={<D6 />} />
 
         <Route path="/meet-dr-jen" element={<MeetDrJen />} />
         <Route path="/store" element={<Store />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/contact" element={<Contact />} />
+
+        {/* ✅ Legal / Accessibility */}
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/accessibility" element={<Accessibility />} />
+
+        {/* (optional) */}
+        {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
 
       <Footer />
