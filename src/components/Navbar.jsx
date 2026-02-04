@@ -54,7 +54,7 @@ export default function Navbar() {
             onClick={() => setMenuOpen(false)}
             className="hover:text-white"
           >
-            D-6 Method in Action
+            The D-6 Method 
           </a>
           <a
             href="/meet-dr-jen"
