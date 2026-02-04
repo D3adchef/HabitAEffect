@@ -25,13 +25,27 @@ export default function Navbar() {
           <a href="/" className="hover:text-white transition-colors">Home</a>
           <a href="/services" className="hover:text-white transition-colors">Services</a>
           <a href="/d6-method" className="hover:text-white transition-colors">
-            The D-6 Method 
+            The D-6 Method
           </a>
           <a href="/meet-dr-jen" className="hover:text-white transition-colors">
             Meet Dr. Jen
           </a>
-          <a href="/store" className="hover:text-white transition-colors">Store</a>
-          <a href="/resources" className="hover:text-white transition-colors">Resources</a>
+
+          {/* Store (label only) */}
+          <span className="flex items-center gap-2 cursor-default">
+            <span>Store</span>
+            <span className="text-xs bg-white text-blue-900 px-2 py-0.5 rounded-full">
+              Coming Soon
+            </span>
+          </span>
+
+          {/* Resources (label only) */}
+          <span className="flex items-center gap-2 cursor-default">
+            <span>Resources</span>
+            <span className="text-xs bg-white text-blue-900 px-2 py-0.5 rounded-full">
+              Coming Soon
+            </span>
+          </span>
         </div>
 
         {/* Mobile Hamburger */}
@@ -47,14 +61,18 @@ export default function Navbar() {
       {/* Mobile Dropdown */}
       {menuOpen && (
         <div className="md:hidden bg-[#F28C28] font-semibold text-lg text-blue-900 flex flex-col items-end pr-8 py-6 gap-5 shadow-md">
-          <a href="/" onClick={() => setMenuOpen(false)} className="hover:text-white">Home</a>
-          <a href="/services" onClick={() => setMenuOpen(false)} className="hover:text-white">Services</a>
+          <a href="/" onClick={() => setMenuOpen(false)} className="hover:text-white">
+            Home
+          </a>
+          <a href="/services" onClick={() => setMenuOpen(false)} className="hover:text-white">
+            Services
+          </a>
           <a
             href="/d6-method"
             onClick={() => setMenuOpen(false)}
             className="hover:text-white"
           >
-            The D-6 Method 
+            The D-6 Method
           </a>
           <a
             href="/meet-dr-jen"
@@ -63,8 +81,22 @@ export default function Navbar() {
           >
             Meet Dr. Jen
           </a>
-          <a href="/store" onClick={() => setMenuOpen(false)} className="hover:text-white">Store</a>
-          <a href="/resources" onClick={() => setMenuOpen(false)} className="hover:text-white">Resources</a>
+
+          {/* Store (label only) */}
+          <span className="flex items-center gap-2 cursor-default">
+            <span>Store</span>
+            <span className="text-xs bg-white text-blue-900 px-2 py-0.5 rounded-full">
+              Coming Soon
+            </span>
+          </span>
+
+          {/* Resources (label only) */}
+          <span className="flex items-center gap-2 cursor-default">
+            <span>Resources</span>
+            <span className="text-xs bg-white text-blue-900 px-2 py-0.5 rounded-full">
+              Coming Soon
+            </span>
+          </span>
         </div>
       )}
     </nav>
