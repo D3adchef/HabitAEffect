@@ -25,7 +25,7 @@ export default function Navbar() {
           <a href="/" className="hover:text-white transition-colors">Home</a>
           <a href="/services" className="hover:text-white transition-colors">Services</a>
           <a href="/d6-method" className="hover:text-white transition-colors">
-            D-6 Method in Action
+            The D-6 Method 
           </a>
           <a href="/meet-dr-jen" className="hover:text-white transition-colors">
             Meet Dr. Jen

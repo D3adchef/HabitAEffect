@@ -4,7 +4,7 @@ export default function D6() {
   return (
     <>
       <Helmet>
-        <title>D-6 Method | Habit Æffect</title>
+        <title>The D-6 Method | Habit Æffect</title>
         <meta
           name="description"
           content="The D-6 Method is a structured, research-backed framework for understanding, designing, and sustaining meaningful habit change."
@@ -14,7 +14,7 @@ export default function D6() {
       <div className="w-full min-h-screen bg-background pt-32 pb-20 px-6 md:px-12 lg:px-24">
         {/* Page Title */}
         <h1 className="text-4xl md:text-5xl font-bold text-orange text-center mb-12">
-          D-6 Method
+         The D-6 Method
         </h1>
 
         <div className="max-w-5xl mx-auto text-black font-medium space-y-16">
